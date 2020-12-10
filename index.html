@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Test Application</title>
+<link rel="stylesheet" href="style/style.css" />
+</head>
+
+<body>
+
+	<header>
+		<img class="img" src="images/cognizant.jpg">
+		<div class="header-text">Some Website Name</div>	
+	</header>
+	<nav class="nav-bar">
+			<a class="nav-text" href="https://google.com">Google </a>
+			
+			<a class="nav-text" href="https://www.microsoft.com">Microsoft</a>
+
+	</nav>
+	<section class="section-text">	
+	<h2>Some text Here</h2>
+	<p>some paragraph here </p>
+	</section>
+	<footer>
+		<div class="footer-text">&copy; Akshay </div>
+	</footer>
+
+<script>
+
+function print(){
+var name= document.getElementById("userName").value;
+if (name =="")
+alert("name required");
+else
+alert(name);
+}
+
+</script>
+<input type="text" id="userName" value=""/>
+<input type="button" onclick=print(); value="Print"/>
+</body>
+</html>
